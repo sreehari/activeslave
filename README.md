@@ -16,10 +16,6 @@ Or install it yourself as:
 
     $ gem install activeslave
 
-Or install it yourself as:
-
-    $ gem install activeslave
-
 ## Usage
 
 Create Slave object:
