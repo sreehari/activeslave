@@ -36,6 +36,21 @@ module Activeslave
     def send_notification
       Pony.mail :to           => @receiver_email,
                 :subject      => "Your Slave Not Working!",
+                :html_body    => "<h2>Slave Status</h2><br>
+<table>
+    <tr>
+      <td>Slave_IO_Running</td>
+      <td>#{@slave_io_running}</td>
+    </tr>
+    <tr>
+      <td>Slave_SQL_Running</td>
+      <td>#{@slave_sql_running}</td>
+    </tr>
+    <tr>
+      <td>Read_Only</td>
+      <td>#{@read_only}</td>
+    </tr>
+</table>",
                 :via          => :sendmail
     end
 
