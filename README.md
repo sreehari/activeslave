@@ -10,17 +10,17 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
+    bundle
 
 Or install it yourself as:
 
-    $ gem install activeslave
+    gem install activeslave
 
 ## Usage
 
 Create Slave object:
 
-    $ slave = Activeslave::Slave.new( "host"            => "xxx.xxx.xx.xx",
+    slave = Activeslave::Slave.new( "host"            => "xxx.xxx.xx.xx",
                                       "username"        => "xxxxxx",
                                       "password"        => "xxxxxx",
                                       "database"        => "slavedb",
@@ -29,11 +29,11 @@ Create Slave object:
 
 Start monitor:
 
-    $ slave.start_monitor
+    slave.start_monitor
 
 Stop monitor:
 
-    $ slave.stop_monitor
+    slave.stop_monitor
 
 ## Contributing
 
