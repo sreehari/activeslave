@@ -1,0 +1,8 @@
+slave:
+  host: 192.168.2.42
+  username: xxxxxx
+  password: xxxxxx
+  reconnect: true
+  database: slavedb
+  socket: /var/run/mysqld/mysqld.sock
+  receiver_email: sreehari@activesphere.com
