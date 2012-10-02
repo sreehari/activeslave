@@ -16,20 +16,28 @@ Or install it yourself as:
 
     $ gem install activeslave
 
+Or install it yourself as:
+
+    $ gem install activeslave
+
 ## Usage
 
-Create Slave object
-  slave = Activeslave::Slave.new( "host"            => "xxx.xxx.xx.xx",
-                                  "username"        => "xxxxxx",
-                                  "password"        => "xxxxxx",
-                                  "database"        => "slavedb",
-                                  "socket"          => "/var/run/mysqld/mysqld.sock",
-                                  "receiver_email"  => "sreehari@activesphere.com")
-Start monitor
-  slave.start_monitor
+Create Slave object:
 
-Stop monitor
-  slave.stop_monitor
+    $ slave = Activeslave::Slave.new( "host"            => "xxx.xxx.xx.xx",
+                                      "username"        => "xxxxxx",
+                                      "password"        => "xxxxxx",
+                                      "database"        => "slavedb",
+                                      "socket"          => "/var/run/mysqld/mysqld.sock",
+                                      "receiver_email"  => "sreehari@activesphere.com")
+
+Start monitor:
+
+    $ slave.start_monitor
+
+Stop monitor:
+
+    $ slave.stop_monitor
 
 ## Contributing
 
