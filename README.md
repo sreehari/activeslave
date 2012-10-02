@@ -1,6 +1,6 @@
 # Activeslave
 
-mysql-slave sends an email notification when slave stop working
+monitor mysql-slave, sends an email notification when slave stop working
 
 ## Installation
 
